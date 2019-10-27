@@ -1,0 +1,8 @@
+build: off
+test_script: python test3.py
+build_script:
+ - mkdir build
+ - cd build
+ - cmake .. %CMAKE_CONFIGURE_FLAGS% 
+ - cmake --build . %CMAKE_BUILD_FLAGS%
+ - cd ..
