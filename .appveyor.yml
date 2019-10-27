@@ -1,5 +1,4 @@
 build: off
-test_script: python test3.py
 build_script:
  - mkdir build
  - cd build
